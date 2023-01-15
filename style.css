@@ -297,12 +297,18 @@ article{
 .facts-div{
     width: 248px;
     height: 248px;
-    border: 5px solid #1b160f;
+    border: 5px solid white;
     border-radius: 8px;
     text-align: center;
     margin-top: 100px;
     box-shadow: 10px 10px 10px rgb(41, 33, 33);
     background-color:   #36191b;
+}
+
+.facts-div:hover{
+    background: red;
+  
+
 }
 
 .facts-div img{
@@ -359,6 +365,50 @@ color: #dddddd ;
 .logo-img img{
     height: 50px;
     width: 150px;
+}
+
+/* form section*/
+.form-section {
+width: 80%;
+height: 400px;  
+background-color:  rgb(33, 100, 61) ;
+margin: 200px 10% 50px 10%;
+border-radius: 30px;
+
+}
+.form{
+    padding-top: 80px;
+    margin-left: 33%; 
+  ;
+    
+}
+.form-section input{
+    display: block;
+    height: 30px;
+    width: 500px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f7f4f4;
+    
+   
+
+}
+
+.form-btn{
+    width: 150px;
+    height: 70px;
+    background-color:rgb(30, 41, 90);
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 180px;
+    box-shadow: 5px 5px 5px black;
 }
 
 /* footer */
