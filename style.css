@@ -239,7 +239,9 @@ article{
     border: 10px solid rgb(41, 20, 20);
    
 }
-
+.section-experience{
+    margin-top: 200px;
+}
 .experience{
     background-color: #ff0e0e;
     width: 250px;
@@ -247,7 +249,7 @@ article{
     border-radius: 8px;
     text-align: center;
     margin-left: 40%;
-    margin-top: 200px;
+    
     box-shadow: 10px 10px 10px black;
     
 }
@@ -426,4 +428,120 @@ footer{
 .footer-p{
     font-size: 20px;
     color:rgb(219, 236, 213);
+}
+
+/* small device */
+
+@media screen and (max-width: 668px ) {
+header{
+    height: 1200px;
+}
+/* nav */
+nav{
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-h2{
+    margin-left: 20px ;
+}
+.nav-p{
+    margin: 0;
+}
+.nav-p a{
+    display: block;
+    margin-top: 10px;
+}
+
+/* Banner */
+.banner{
+    width: 100%;
+}
+.banner-img{
+    height: 100%;
+    border-top: 20px solid rgb(2, 2, 2);
+    border-bottom: 30px solid #000000;
+}
+
+/* article*/
+
+
+article{
+    
+    flex-direction: column;
+  margin-left: 20px;
+ 
+   
+}
+
+.article-img-container{
+   
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 24px;
+   
+    
+}
+.article-img{
+    width: 100%;
+}
+.article-img img{
+    width: 100%;
+}
+.article-container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+/* blog */
+
+.blog-container{
+    width: 87%;
+    flex-direction: column;
+    margin: 0 0 0 15px;
+}
+.blogs-container{
+    width: 100%;
+}
+.blogs-title-container{
+    width: 100%;
+}
+
+
+.blogs-title-container h1{
+    width: 100%;
+    padding: 0;
+}
+.blogs-title-p{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.blogs{
+    width: 100%;
+}
+.blog-img{
+    
+    border-top:15px solid rgb(1, 255, 107) ;
+    border-bottom:15px solid rgb(1, 255, 107) ; 
+    border-right:30px solid rgb(1, 255, 107) ;
+    border-left:10px solid rgb(1, 255, 107) ;
+    
+}
+.blog-img img{
+    width: 100%;
+    border: 10px solid rgb(41, 20, 20);
+}
+
+.section-experience{
+    margin-top: 790px;
+}
+
+
+
+
+
+ .section-sponsor,.form-section, footer{
+    display: none;
+ }   
+    
 }
