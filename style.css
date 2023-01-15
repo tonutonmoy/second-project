@@ -11,16 +11,11 @@
 
 header{
     
-    background-color: rgba(255, 144, 14, 0.1);
+  
+    background-color: rgba(18, 31, 58, 0.973);
     height: 1322px;
     width: 100%;
-
-}
-main{
-
-}
-
-footer{
+    box-shadow: 10px 10px 10px black;
 
 }
 
@@ -35,8 +30,9 @@ nav{
 
 .nav-h2{
     font-size:45px ;
-    color: #131313;
+    color: rgb(219, 236, 213);
     margin-left: -200px;
+    
    
 }
 .nav-p{
@@ -45,7 +41,7 @@ nav{
 .nav-p a{
 font-size: 18px;
 text-decoration: none;
-color: #424242;
+color: rgb(219, 236, 213);
 padding-left: 25px;
 
 }
@@ -60,12 +56,12 @@ padding-left: 25px;
 
 .banner-header-h1{
     font-size: 45px;
-    color: #131313;
+    color: rgb(219, 236, 213);
 }
 
 .banner-header-p{
     font-size: 16px;
-    color: #727272;
+    color: rgb(219, 236, 213);
     padding: 0 30%;
     margin-top: 20px;
    
@@ -77,10 +73,15 @@ padding-left: 25px;
     background-color: #424242;
     margin: 50px 10% 50px 10%;
     border-radius: 8px;
+    border-bottom: 50px solid rgb(0, 0, 0);
+    border-radius: 30%;
+    border-top: 30px solid rgb(0, 0, 0);
 }
 .banner-img img{
     width: 100%;
     height: 100%;
+    border: 10px solid black;
+   
     
 }
 .banner-btn{
@@ -90,21 +91,27 @@ padding-left: 25px;
     width: 180px;
     height: 64px;
     font-size: 20px;
-    color: #FFFFFF;
-    background-color: #FF900E;
+    color: #ffffff;
+    background-color: #881b1b;
     border-radius: 8px;
     padding: 20px 25px;
-    border: none;
+    box-shadow: 10px 10px 10px rgb(27, 23, 23);
     margin-top: 30px;
+}
+.banner-btn button:hover{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    
+   
 }
 
 
-/*  article */
+/*  article  */
 
 article{
     
     display: flex;
-    margin: 70px 13% 0 15%;
+    margin: 100px 13% 0 15%;
     gap: 70px;
 }
 .article-img-container{
@@ -112,6 +119,13 @@ article{
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 24px;
     grid-column-gap: 24px;
+    
+}
+.article-img{
+    border: 10px solid rgb(109, 1, 1);
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 .article-container{
     width: 500px;
@@ -122,16 +136,16 @@ article{
 }
 .article-h2{
     font-size: 45px;
-    color:#727272 ;
+    color:#2d1c5a ;
 }
 .article-span{
     font-size: 45px;
-    color:#131313
+    color:#ffae00
     ;
 }
 .article-h1{
     font-size: 45px;
-    color:#FF900E ;
+    color:#fa0000 ;
 }
 
 .article-p{
@@ -144,17 +158,18 @@ article{
     width: 180px;
     height: 64px;
     font-size: 20px;
-    color: #FFFFFF;
-    background-color: #FF900E;
+    color: #ffffff;
+    background-color: #ff0e0e;
     border-radius: 8px;
     padding: 20px 25px;
     border: none;
+    box-shadow: 5px 5px 10px #493a29;
     
 }
 
 /* Blog */
 .blog{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .blog-container{
     display: flex;
@@ -168,7 +183,7 @@ article{
 .blogs-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    row-gap: 20px;
+    row-gap: 50px;
 }
 .blogs-title-container{
     width: 586px;
@@ -191,13 +206,19 @@ article{
 }
 
 .blogs{
-    border-radius: 15px ;
+    border-radius: 15px;
+    border-top: 30px solid rgb(1, 255, 107);
     
     background-color: #fffafa;
+
     width: 450px;
-    box-shadow: 10px 10px 10px rgb(53, 49, 49);
+    height: 150px;
+
+    box-shadow: 20px 20px 10px rgb(53, 49, 49);
+    
 }
 .blogs-h3{
+    
     font-size: 20px;
     color: #131313;
     padding: 30px 30px 5px 30px ;
@@ -207,13 +228,27 @@ article{
     color: #727272;
     padding: 5px 30px;
 }
+.blog-img{
+   border: 30px solid  rgb(1, 255, 107) ;
+   
+    border-radius: 50%;
+    
+    
+}
+.blog-img img{
+    border: 10px solid rgb(41, 20, 20);
+   
+}
+
 .experience{
-    background-color: #FF900E;
+    background-color: #ff0e0e;
     width: 250px;
     height: 150px;
     border-radius: 8px;
     text-align: center;
     margin-left: 40%;
+    margin-top: 200px;
+    box-shadow: 10px 10px 10px black;
     
 }
 .experience-h1{
@@ -227,4 +262,118 @@ article{
     color: #fffafa;
     margin-top: 5px;
 
+}
+
+/* Some Facts*/
+
+.section-facts{
+   
+    width: 80%;
+   
+  
+    margin: 100px 10% 50px 10%;
+   
+
+}
+
+.facts-h1{
+    font-size: 45px ;
+    color: #131313 ;
+    
+}
+.facts-p{
+    font-size: 16px;
+    color: #727272;
+    width: 552px;
+    margin-top: 25px;
+
+}
+
+.facts-container-div{
+ display: flex;
+ justify-content: space-around;
+}
+
+.facts-div{
+    width: 248px;
+    height: 248px;
+    border: 5px solid #1b160f;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px rgb(41, 33, 33);
+    background-color:   #36191b;
+}
+
+.facts-div img{
+    margin-top: 45px;
+    
+}
+.facts-div h1{
+    margin-top: 10px;
+    font-size: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 17, 17);
+    
+
+}
+.facts-div p{
+margin-top: 5px;
+font-size: 20px;
+color: #dddddd ;
+}
+
+/* Our sponsors */
+
+.section-sponsor{
+    width: 80%;
+    margin: 200px 10% 50px 10%;
+   
+}
+
+.sponsor-title-container{
+   text-align: center;
+}
+
+.sponsor-h1{
+    font-size: 45px ;
+    color:#5a0e0e ;
+    margin-bottom: 25px;
+   
+}
+
+.sponsor-p-1, .sponsor-p-2{
+    margin-bottom: 5px;
+    font-size: 16px ;
+    color: #727272;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 50px;
+}
+
+.logo-img img{
+    height: 50px;
+    width: 150px;
+}
+
+/* footer */
+footer{
+    width: 80%;
+    height: 100px;
+    margin: 200px 10% 50px 10%;
+   
+    background-color: rgba(18, 31, 58, 0.973);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-p{
+    font-size: 20px;
+    color:rgb(219, 236, 213);
 }
